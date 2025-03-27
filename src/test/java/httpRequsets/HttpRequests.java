@@ -52,8 +52,7 @@ public class HttpRequests {
 			.body(data)
 		.when()
 			.post("https://reqres.in/api/users")
-			.jsonPath().getInt("id");
-		
+			.jsonPath().getInt("id");	
 	
 //		.then()
 //			.statusCode(201)
