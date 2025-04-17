@@ -75,8 +75,7 @@ public class HttpRequests {
 			.put("https://reqres.in/api/users/"+id)
 		.then()
 			.statusCode(200)
-			.log().all();
-		
+			.log().all();	
 	}
 	
 	@Test
@@ -86,8 +85,7 @@ public class HttpRequests {
 		given()
 		
 		.when()
-			.delete("https://reqres.in/api/users/"+id)
-		
+			.delete("https://reqres.in/api/users/"+id)		
 		.then()
 			.statusCode(204)
 			.log().all();
