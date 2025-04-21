@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parsingXMLResponse.Approach3">
+      <class name="schemaValidation.XmlSchemaValidation">
         <methods>
-          <include name="testXMLResponse"/>
+          <include name="xmlSchemaValidation"/>
         </methods>
-      </class> <!-- parsingXMLResponse.Approach3 -->
+      </class> <!-- schemaValidation.XmlSchemaValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
